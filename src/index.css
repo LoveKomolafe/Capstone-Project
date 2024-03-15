@@ -1,0 +1,23 @@
+:root {
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+}
+
+a {
+    font-weight: 500;
+    color: white;
+    text-decoration: inherit;
+  }
+
+body {
+  margin: 0 auto;
+  /* padding: 2% 8%; */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #efe9e9;
+}
+
+main {
+  padding: 2% 8%;
+}

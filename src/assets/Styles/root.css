@@ -1,0 +1,144 @@
+.signUp {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #efe9e9;
+  color: #09421b;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.25s;
+}
+
+.signUp a {
+  color: #09421b;
+}
+
+button.signUp a:hover {
+  border-color: #09421b;
+  color: #efe9e9;
+}
+
+div.header {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 500px;
+  align-items: center;
+  background-color: #09421b;
+  padding: 2% 8%;
+  width: 100%;
+}
+
+
+
+div.care {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #09421b;
+  /* color: white; */
+  padding: 10px 20px;
+}
+
+img.carelogo {
+  display: inline-flex;
+  height: 50px;
+  align-items: baseline;
+  z-index: 1;
+  filter: grayscale(100%) invert(100%);
+}
+
+div.carename {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 2.5em;
+  line-height: 0.6;
+}
+
+div.details {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+  text-align: center;
+  gap: 50px;
+}
+
+.health-logo {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  bottom: 220px;
+  left: 600px;
+  animation: rotateRightToLeft 5s line;
+}
+
+@media (max-width: 576px) {
+  div.header {
+    gap: 200px;
+  }
+
+  div.care {
+    gap: 10px;
+  }
+
+  img.carelogo {
+    height: 30px;
+  }
+
+  div.carename {
+    font-size: 1.2em;
+    display: none;
+  }
+
+  div.details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .health-logo {
+    bottom: 50px;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  div.header {
+    gap: 200px;
+  }
+
+  div.care {
+    gap: 10px;
+  }
+
+  img.carelogo {
+    height: 30px;
+  }
+
+  div.carename {
+    font-size: 1.5em;
+    display: none;
+  }
+
+  div.details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .health-logo {
+    bottom: 50px;
+    left: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  div.carename {
+    display: none;
+  }
+}

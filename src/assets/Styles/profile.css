@@ -1,0 +1,104 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 16px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+div.profile-picture {
+  text-align: center;
+}
+
+img {
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.profile-picture input {
+  display: flex;
+  padding: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.name-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  flex: 1 0 calc(50% - 5px);
+}
+
+.input-group select,
+.input-group input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.name-inputs input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.sor-input select,
+.lg-input select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  flex: 1 0 calc(50% - 5px);
+}
+
+.summary-input textarea {
+  width: 97%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  flex: 1 0 calc(50% - 5px);
+}
+
+button {
+  background-color: #ffffff;
+  color: #af5e12;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #080b0e;
+}
+
+
+button[type="submit"] {
+  background-color: #351baa;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}

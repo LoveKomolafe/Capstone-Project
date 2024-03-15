@@ -1,0 +1,16 @@
+.about h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.about {
+  position: relative;
+  left: 200px;
+}
+
+.about p,
+.about {
+  font-size: 16px;
+  max-width: 500px;
+  text-align: justify;
+}

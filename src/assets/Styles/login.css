@@ -1,0 +1,80 @@
+/* Login.css */
+
+.login-card {
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #09421b;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-card button {
+  padding: 10px 20px;
+  background-color: #09421b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-card button:hover {
+  background-color: rgb(50, 207, 29);
+}
+
+.login-card .error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.login-card p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-card a {
+  color: #09421b;
+  text-decoration: none;
+}
+
+.login-card a:hover {
+  color: rgb(50, 207, 29);
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}

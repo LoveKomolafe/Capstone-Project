@@ -1,0 +1,77 @@
+main {
+  width: 75%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 4px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    border-radius: 4px;
+    height: 32px;
+}
+
+.markdown-editor {
+  position: relative;
+}
+
+.markdown-editor textarea {
+  width: 100%;
+  min-height: 150px;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #09421b;
+}
+
+.markdown-editor textarea:focus {
+  outline: none;
+  border: 2px solid rgb(50, 207, 29);
+}
+
+.markdown-toolbar {
+  display: flex;
+}
+
+.markdown-toolbar button {
+  background-color: #09421b;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.markdown-toolbar button:hover {
+  background-color: rgb(50, 207, 29);
+}
+
+.markdown-preview {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.entry button {
+  background-color: #09421b;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.entry button:hover {
+  background-color: rgb(50, 207, 29);
+}
